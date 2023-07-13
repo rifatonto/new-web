@@ -1,0 +1,262 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container {
+    background-color: black;
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo  {
+    color: white;
+    font-size: 30px;
+}
+.flower-word {
+    color: #E55473;
+} 
+.menus {
+    color: white;
+    display: flex;
+    gap: 100px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.menus li:hover {
+    color: brown;
+}
+.banner-img {
+    width: 335px;
+    height: 400px;
+}
+
+.banner-flower-sec {
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);;
+}
+.banner-lft-txt {
+    font-size: 50px;
+}
+.description {
+    font-size: 20px;
+}
+.btn-bg {
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+    
+    gap: 10px;
+    margin-top: 25px;
+    
+    
+}
+.feature-flower {
+    padding-bottom: 70px;
+}
+.flower-tittle {
+    text-align: center;
+    color: black bold;
+}
+.flower-desc {
+    color: black;
+    text-align: center;
+    font-size: large;
+}
+.all-flower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 30px;
+    
+}
+.png5-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-decoration-line: underline;
+    line-height: 35px;
+    text-align: center;
+    font-size: 24px;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+}
+.png6-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-decoration-line: underline;
+    font-size: 24px;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+}
+.png7-flower {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    text-decoration-line: underline;
+    font-size: 24px;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+}
+.mini-title {
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 5px;
+}
+.mini-title {
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 5px; 
+}
+.mini-title{
+    align-items: center;
+    padding-top: 40px;
+    margin-top: 5px;
+}
+.img-size {
+    width: 310px;
+    height: 408px;
+}
+.service-container {
+    padding-top: 190px;
+    padding-bottom: 190px;
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    
+}
+.t-title {
+    font-weight:normal ;
+    align-items: center;
+   
+}
+.service-img-1{
+    padding-left: 80px;
+}
+.service-img-2{
+    padding-left: 60px;
+}
+.service-img-3 {
+    padding-left: 20px;
+}
+.deal-banner {
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+.deal-title {
+    font-size: 30px;
+}
+.deal-desc {
+    padding-top: 10px;
+}
+.btn-bg-1 {
+    margin-left: 130px;
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 20px 40px;
+    
+    gap: 10px;
+    margin-top: 25px;
+}
+.flower-tittle {
+    padding-top: 80px;
+}
+.img-flower {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+.banner-card {
+    background-image: url(./images/rectangle\ 9.png);
+    height: 400px;
+    /* background-size: cover; */
+    display: flex;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    margin: 75px;
+    align-items: center;
+    text-align: center;
+    background-position: center;
+    
+}
+.banner-text {
+    margin-left: 510px;
+}
+.banner-head {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-desc {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-email {
+    width: 300px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+.btn-bg-2 {
+    height: 44px; 
+    background-color: #E55473;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 23px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+.footer-h1 {
+    color: white;
+    padding-bottom: 20px;
+}
+.footer-head {
+    background-color: black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.flower-wrd {
+    color: #E55473;
+}
+.footer-p-desc {
+    color: white; 
+}
+.footer-copyrght {
+    
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
